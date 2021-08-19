@@ -1,0 +1,32 @@
+{
+  "name": "kafka-nodejs",
+  "version": "1.0.0",
+  "description": "Kafka Consumer/Producer Model Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "start:consumer": "node ./src/consumer/start.js",
+    "start:pc": "node ./src/producer/console.js",
+    "test:cov": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kafkajs": "^1.15.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "lines": 90,
+        "statements": 90
+      }
+    }
+  }
+}
