@@ -10,10 +10,6 @@ Projeto template para a utilização do Kafka com Node Js.
 ## Objetivo 
 Um template de uso rápido e fácil para iniciar uma plataforma distribuída de mesnsagens.
 
- ## 🛠 Status do Projeto
-<h4 align="center"> 
-	🚧 ...Em construção...  🚧
-</h4>
 
 ## 🚀 Tecnologias utilizadas
 - [Node.js](https://nodejs.org/en/) 
